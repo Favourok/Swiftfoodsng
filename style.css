@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ebd1c2;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.container {
+    max-width: 660px;
+    margin: 0 auto ;
+    padding: 0 20px;
+}
+
+.container h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+header .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 100px;
+    
+
+}
+
+.header h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    display: flex;
+    
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.header ul li {
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+    border: 2px solid #242b38;
+    border-radius: 50%;
+    
+}
+
+.header ul li:hover {
+    background: #4AAB06;
+    border: 3px solid #4AAB06;
+}
+
+.header ul li i{
+    align-items: center;
+    padding-left: 7px;
+    padding-top: 6px;
+}
+
+header .container{
+    text-align: left;
+    padding: 10px 0;
+    color: #242b38;
+}
+
+
+
+.container h1 {
+    color:  #4AAB06;
+    font-size: 70px;
+    margin-bottom: auto;
+}
+
+form input {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    border: .5px solid #242b38;;
+    border-radius: 45px;
+    height: 50px;
+    padding: 0 0 0 20px;
+    /*background: #242b38;*/
+    background: transparent;
+    color: #242b38;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+form input:focus {
+    outline: none;
+    box-shadow: 0px 10px 30px -20px #4AAB06;
+    filter: contrast(85%);
+}
+
+form label {
+    font-size: 1.2rem;
+    color: #242b38;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+form .subscribe {
+    margin-top: 10px;
+    max-width: 200px;
+    border: none;
+    background: #4AAB06;
+    border-radius: 45px;
+    
+
+}
+
+form .subscribe:hover {
+    background: rgb(105, 185, 47);
+}
+
+
+@media (max-width: 780px) {
+    html {
+        font-size: 60%;
+
+    }
+
+    header .container {
+        align-items: center;
+    }
+
+    header .container h1 {
+        font-size: 50px;
+    }
+
+    header .container h1 p {
+        margin-left: 20px;
+    }
+    
+}
+
+@media (max-width: 780px) {
+    header .container span {
+        display: block;
+    }
+
+    header .container {
+        margin-bottom: 0;
+        margin-top: 200px;
+    }
+}
